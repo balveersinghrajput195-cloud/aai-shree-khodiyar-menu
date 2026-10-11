@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+    <meta name="theme-color" content="#520b1e">
+    <meta name="description" content="Aai Shree Khodiyar Restaurant - The Taste of Kathiyavadi. Authentic Pure Veg Restaurant Digital Menu.">
+    <title>Aai Shree Khodiyar Restaurant | The Taste of Kathiyavadi - Digital Menu</title>
+    <!-- Google Fonts for Indian Restaurant Aesthetic -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/khodiyar-logo.png">
+    <link rel="apple-touch-icon" href="images/khodiyar-logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Top Royal Banner -->
+    <div class="top-announcement">
+        <span>✨ Aai Shree Khodiyar Restaurant • 100% Pure Veg Family Dining • FSSAI Reg. 20719037006111 ✨</span>
+    </div>
+
+    <!-- Hero Header / Restaurant Branding -->
+    <header class="hero" id="top">
+        <div class="logo-wrapper">
+            <img src="images/khodiyar-logo.png" alt="Aai Shree Khodiyar Restaurant Logo" class="logo" width="150" height="150">
+        </div>
+
+        <p class="tagline">THE TASTE OF KATHIYAVADI</p>
+        <h1 class="restaurant-name">Aai Shree Khodiyar Restaurant</h1>
+        <p class="restaurant-sub">Kathiyavadi • Punjabi • Chinese • Dal Bati • Pav Bhaji</p>
+
+        <div class="header-badges">
+            <span class="veg-badge">
+                <span class="veg-icon-box"><span class="veg-icon-dot"></span></span>
+                100% PURE VEGETARIAN
+            </span>
+            <span class="fssai-pill">📜 FSSAI Licensed</span>
+        </div>
+
+        <!-- Prominent Waiter Order Notice as requested -->
+        <div class="waiter-order-pill">
+            <span class="bell-icon">🔔</span>
+            <span>Please place your order with the waiter</span>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="container">
+        <!-- Menu Heading Section -->
+        <section class="menu-intro">
+            <span class="eyebrow">PREPARED FRESH ON ORDER</span>
+            <h2>Our Digital Menu</h2>
+            <p>Explore our complete menu with actual dishes & prices. Tap any category below to filter.</p>
+        </section>
+
+        <!-- Search Bar with Live Filter & Clear Button -->
+        <div class="search-container">
+            <div class="search-box">
+                <span class="search-icon">🔍</span>
+                <input id="search" type="search" placeholder="Search dishes (e.g. Sev Tomato, Rotlo, Paneer, Dal Bati, Khichadi)..."
+                    aria-label="Search food items">
+                <button id="clear-search" class="clear-btn" type="button" title="Clear search" hidden>✕</button>
+            </div>
+        </div>
+
+        <!-- Sticky Categories Navigation Bar -->
+        <nav class="categories-nav" aria-label="Menu Categories">
+            <div id="categories" class="categories"></div>
+        </nav>
+
+        <!-- Status / Result Counter -->
+        <div class="results-bar">
+            <p id="result-count" class="result-count">Loading menu items...</p>
+        </div>
+
+        <!-- Food Menu Grid -->
+        <section id="menu-container" class="menu-grid" aria-live="polite"></section>
+
+        <!-- Empty State When Search Yields Nothing -->
+        <div id="no-results" class="no-results" hidden>
+            <div class="no-results-icon">🍲</div>
+            <h3>No dishes found</h3>
+            <p>We couldn't find any dish matching your search. Try searching for something else!</p>
+            <button id="reset-filter-btn" class="reset-btn" type="button">View All Dishes</button>
+        </div>
+
+        <!-- Restaurant Guidelines & Policy from Page 12 of Menu -->
+        <section class="guidelines-card">
+            <div class="guidelines-header">
+                <span class="guidelines-icon">📜</span>
+                <div>
+                    <h4>Important Guest Notice / નિયમો</h4>
+                    <p>As per official restaurant policy (Page 12 of Menu)</p>
+                </div>
+            </div>
+            <div class="guidelines-grid">
+                <div class="rule-item">
+                    <span class="rule-num">1</span>
+                    <p>After giving order, please wait <strong>20 minutes</strong> for fresh preparation.<br><em>(ઓર્ડર આપ્યા પછી ૨૦ મિનીટ રાહ જોવા વિનંતી.)</em></p>
+                </div>
+                <div class="rule-item">
+                    <span class="rule-num">2</span>
+                    <p>After placing the order, <strong>no item will be cancelled</strong>.<br><em>(ઓર્ડર આપ્યા પછી કોઈ પણ આઈટમ કેન્સલ થશે નહીં.)</em></p>
+                </div>
+                <div class="rule-item">
+                    <span class="rule-num">3</span>
+                    <p><strong>Outside food is strictly restricted</strong>.<br><em>(બહારથી લાવેલ કોઈ પણ વસ્તુ જમવાની મનાઈ છે.)</em></p>
+                </div>
+                <div class="rule-item">
+                    <span class="rule-num">4</span>
+                    <p>We also undertake <strong>party orders for 50+ people</strong>.<br><em>(૫૦ વ્યક્તિ થી ઉપર ના પાર્ટી ઓર્ડર લેવામાં આવશે.)</em></p>
+                </div>
+                <div class="rule-item">
+                    <span class="rule-num">5</span>
+                    <p>Alcoholic products & drinks strictly prohibited.<br><em>(કેફિન પદાર્થ પીને અને લઈને આવવું નહીં.)</em></p>
+                </div>
+                <div class="rule-item">
+                    <span class="rule-num">6</span>
+                    <p>Table Service: <strong>Please place your order with the waiter</strong>.<br><em>(વેટર સાથે તકરાર કરવી નહીં.)</em></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top-btn" type="button" title="Back to top" aria-label="Back to top">
+        ↑
+    </button>
+
+    <!-- Restaurant Footer & Official Contacts -->
+    <footer id="contact">
+        <div class="footer-inner">
+            <img src="images/khodiyar-logo.png" alt="Khodiyar Restaurant Logo" class="footer-logo">
+            <h3>Aai Shree Khodiyar Restaurant</h3>
+            <p class="footer-tagline">THE TASTE OF KATHIYAVADI</p>
+            <span class="pure-veg-tag">🟢 100% Pure Vegetarian Family Restaurant</span>
+
+            <!-- Address directly from Page 12 of menu -->
+            <div class="address-box">
+                <span class="loc-pin">📍</span>
+                <p><strong>Restaurant Address:</strong><br>
+                Plot No 249, Nr. Vishwakarma Temple, Gota - Chandlodia Road, Chandlodia, Ahmedabad - 382481</p>
+            </div>
+
+            <!-- Contacts Section directly from Page 12 of menu -->
+            <div class="contact-section">
+                <h4>📞 Contact Us & Table Reservations</h4>
+
+                <div class="contact-cards-grid">
+                    <!-- Manager -->
+                    <div class="contact-card manager-card">
+                        <span class="contact-role">Manager</span>
+                        <span class="contact-name">Ratan Singh</span>
+                        <div class="phone-links">
+                            <a href="tel:7727839721" class="phone-btn">📞 77278 39721</a>
+                            <a href="tel:7727839421" class="phone-btn alt">📞 77278 39421</a>
+                        </div>
+                    </div>
+
+                    <!-- Owner 1: Amit Patel -->
+                    <div class="contact-card">
+                        <span class="contact-role">Owner</span>
+                        <span class="contact-name">Amit Patel</span>
+                        <a href="tel:9913468996" class="phone-btn">📞 99134 68996</a>
+                    </div>
+
+                    <!-- Owner 2: Fenil Patel -->
+                    <div class="contact-card">
+                        <span class="contact-role">Owner</span>
+                        <span class="contact-name">Fenil Patel</span>
+                        <div class="phone-links">
+                            <a href="tel:9913176360" class="phone-btn">📞 99131 76360</a>
+                            <a href="tel:8866095151" class="phone-btn alt">📞 88660 95151</a>
+                        </div>
+                    </div>
+
+                    <!-- Owner 3: Pratham Patel -->
+                    <div class="contact-card">
+                        <span class="contact-role">Owner</span>
+                        <span class="contact-name">Pratham Patel</span>
+                        <a href="tel:9104455300" class="phone-btn">📞 91044 55300</a>
+                    </div>
+                </div>
+            </div>
+
+            <p class="footer-gratitude">🙏 Thank you for visiting us! Please place your order with the waiter.</p>
+            <p class="fssai-footer">FSSAI License Reg. No. 20719037006111</p>
+            <p class="copyright">© Aai Shree Khodiyar Restaurant. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Vanilla JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>

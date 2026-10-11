@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffe28a" />
+      <stop offset="50%" stop-color="#d4af37" />
+      <stop offset="100%" stop-color="#996515" />
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4a1a14" />
+      <stop offset="100%" stop-color="#2a0d09" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer Ring -->
+  <circle cx="100" cy="100" r="95" fill="url(#bgGrad)" stroke="url(#goldGrad)" stroke-width="4"/>
+  <circle cx="100" cy="100" r="88" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <!-- Trishul / Trishula Symbol -->
+  <g fill="url(#goldGrad)" transform="translate(100, 75) scale(0.9)">
+    <!-- Center spear -->
+    <path d="M-3,18 L-3,-32 L0,-42 L3,-32 L3,18 Z" />
+    <!-- Left prong -->
+    <path d="M-3,0 C-18,-5 -22,-20 -20,-30 C-17,-22 -10,-12 -3,-8 Z" />
+    <!-- Right prong -->
+    <path d="M3,0 C18,-5 22,-20 20,-30 C17,-22 10,-12 3,-8 Z" />
+    <!-- Crossbar -->
+    <rect x="-14" y="2" width="28" height="4" rx="2" />
+    <!-- Damru motif / base -->
+    <circle cx="0" cy="10" r="4" />
+  </g>
+
+  <!-- Crown / Diadem Arc -->
+  <path d="M 60,115 Q 100,125 140,115" fill="none" stroke="url(#goldGrad)" stroke-width="2"/>
+  
+  <!-- Main Hindi Text -->
+  <text x="100" y="138" font-family="'Segoe UI', Arial, sans-serif" font-weight="900" font-size="14" fill="#ffffff" text-anchor="middle" letter-spacing="1">ખોડિયાર</text>
+  <text x="100" y="153" font-family="'Segoe UI', Arial, sans-serif" font-weight="700" font-size="9" fill="url(#goldGrad)" text-anchor="middle" letter-spacing="2">KHODIYAR</text>
+  <text x="100" y="166" font-family="'Segoe UI', Arial, sans-serif" font-weight="500" font-size="7" fill="#ffd68a" text-anchor="middle" letter-spacing="1.5">RESTAURANT</text>
+
+  <!-- Small stars -->
+  <polygon points="100,32 102,37 107,37 103,40 105,45 100,42 95,45 97,40 93,37 98,37" fill="url(#goldGrad)"/>
+</svg>
