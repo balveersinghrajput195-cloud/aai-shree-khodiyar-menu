@@ -678,7 +678,7 @@ const menuData = [
         price: 300,
         category: "Punjabi Sabji",
         badge: "House Special 👑",
-        photo: "https://www.indianhealthyrecipes.com/wp-content/uploads/2023/02/paneer-curry-dhaba-style.jpg"
+        photo: "https://c.ndtvimg.com/2020-04/e0s7nkfg_paneer-mattar_625x300_16_April_20.jpg"
     },
     {
         id: 82,
@@ -687,7 +687,7 @@ const menuData = [
         price: 240,
         category: "Punjabi Sabji",
         badge: "Popular ⭐",
-        photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQbtVN0u4MHPoYynjr3Oz_22g_jgn5AxNaS-0FhZKhBonhfbmYov11cfw&s=10"
+        photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqoqiHYMKD8NdxfJh9b4EbM3ohsmcfFO5LgrcVgXd5W6Yq-Yhyy3RDLZw&s=10"
     },
     {
         id: 83,
@@ -696,7 +696,7 @@ const menuData = [
         price: 260,
         category: "Punjabi Sabji",
         badge: "Bestseller 🔥",
-        photo: "https://myfoodstory.com/wp-content/uploads/2021/07/restaurant-style-paneer-butter-masala-2-500x500.jpg"
+        photo: "https://www.ruchiskitchen.com/wp-content/uploads/2020/12/Paneer-butter-masala-recipe-3.jpg"
     },
     {
         id: 84,
@@ -843,6 +843,7 @@ const menuData = [
         gujName: "પનીર કોલ્હાપુરી (સ્પાઈસી)",
         price: 240,
         category: "Punjabi Sabji",
+        badge: "Spicy 🌶️",
         photo: "https://img-cdn.publive.online/fit-in/1200x675/sanjeev-kapoor/media/media_files/2025/05/27/HtkFhFSLEsII0Xr6kbEH.jpg"
     },
     {
@@ -875,7 +876,7 @@ const menuData = [
         gujName: "નવરત્ન કોરમા (સ્વીટ)",
         price: 290,
         category: "Punjabi Sabji",
-        photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqmXyNj00x_HRPyo-9l3ORozm2A5PHRqSsaoNeEKEO1KsKKWLb0DjWHAA&s=10"
+        photo: "https://www.cookwithmanali.com/wp-content/uploads/2020/06/Navratan-Korma.jpg"
     },
 
     // ---------------- PAGE 7: KAJU SPECIAL & KOFTA (10 Dishes) ----------------
@@ -967,7 +968,7 @@ const menuData = [
     // ---------------- PAGE 8: TAWA ROTI (12 Dishes) ----------------
     {
         id: 116,
-        name: "Tawa Roti Plain",
+        name: "Tawa Roti (Plain)",
         gujName: "તવા રોટી પ્લેન",
         price: 15,
         category: "Tawa Roti",
@@ -975,7 +976,7 @@ const menuData = [
     },
     {
         id: 117,
-        name: "Tawa Roti Butter",
+        name: "Tawa Roti (Butter)",
         gujName: "તવા રોટી બટર",
         price: 20,
         category: "Tawa Roti",
@@ -983,23 +984,23 @@ const menuData = [
     },
     {
         id: 118,
-        name: "Bhakhri",
-        gujName: "ભાખરી",
+        name: "Bhakhri (Butter)",
+        gujName: "ભાખરી (બટર)",
         price: 30,
         category: "Tawa Roti",
         photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdBc1tC29s4Kg0SdbOqVAQje8VP8QDEcTzYX1WbjP-zQ&s=10"
     },
     {
         id: 119,
-        name: "Tawa Paratha Butter",
-        gujName: "તવા પરાઠા બટર",
+        name: "Tawa Paratha (Butter)",
+        gujName: "તવા પરાઠા (બટર)",
         price: 35,
         category: "Tawa Roti",
         photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG74iCuJFtW1i2JyMZMsUNpnfFsO2cWEOW77kcNMGZZPOX13854kDd8As&s=10"
     },
     {
         id: 120,
-        name: "Bajri No Rotlo Plain",
+        name: "Bajri No Rotlo (Plain)",
         gujName: "બાજરી નો રોટલો પ્લેન",
         price: 30,
         category: "Tawa Roti",
@@ -1008,8 +1009,8 @@ const menuData = [
     },
     {
         id: 121,
-        name: "Bajri No Rotlo Butter",
-        gujName: "બાજરી નો રોટલો બટર",
+        name: "Bajri No Rotlo (Butter)",
+        gujName: "બાજરી નો રોટલો (બટર)",
         price: 35,
         category: "Tawa Roti",
         badge: "Must Have ⭐",
@@ -1017,7 +1018,7 @@ const menuData = [
     },
     {
         id: 122,
-        name: "Gobi Paratha",
+        name: "Gobi Paratha ",
         gujName: "ગોબી પરાઠા",
         price: 100,
         category: "Tawa Roti",
@@ -1258,7 +1259,7 @@ const menuData = [
         price: 170,
         category: "Rice",
         badge: "Aromatic 🍚",
-        photo: "https://www.whiskaffair.com/wp-content/uploads/2020/08/Veg-Biryani-2-3.jpg"
+        photo: "https://www.shutterstock.com/image-photo/plate-hyderabadi-biryani-served-vibrant-260nw-2754622605.jpg"
     },
 
     // ---------------- PAGE 10: PAV BHAJI (5 Dishes) ----------------
@@ -1269,7 +1270,7 @@ const menuData = [
         price: 180,
         category: "Pav Bhaji",
         badge: "Special 👑",
-        photo: "https://madhurasrecipe.com/wp-content/uploads/2022/01/cooker_pav_bhaji_1.jpg"
+        photo: "https://www.ohmyveg.co.uk/wp-content/uploads/2025/08/Paneer-Pav-Bhaji-3-1.webp"
     },
     {
         id: 152,
