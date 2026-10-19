@@ -1418,8 +1418,36 @@ const menuData = [
         badge: "Grand Thali ⭐",
         desc: "Paneer Butter Masala, Mix Veg, Daal Fry, Jeera Rice, Chass, Papad, Butter Chapati (4) | Extra Sabji / Daal / Rice: ₹30 (1 Wadki)",
         photo: "https://b.zmtcdn.com/data/reviews_photos/235/7e3103ca7a79d592e2b7f374a76c4235_1529943702.jpg"
-    }
-];
+    },
+    {
+        id: 168,
+        name: "sprite",
+        price: 20,
+        category: "coldrink",
+        photo: "https://5.imimg.com/data5/SELLER/Default/2024/2/389439656/HJ/IQ/MY/100595859/sprite-rs-20.jpg"
+    },
+    {
+        id: 169,
+        name: "mazza",
+        price: 20,
+        category: "coldrink",
+        photo: "https://5.imimg.com/data5/SELLER/Default/2023/6/313154145/QR/QU/XY/151740766/250ml-maaza-mango-drink-500x500.jpg"
+    },
+    {
+        id: 170,
+        name: "thumsup",
+        price: 20,
+        category: "coldrink",
+        photo: "https://cdn.zeptonow.com/production/ik-seo/cms/product_variant/d5d13413-667c-47f7-8691-77add126655b/Thums-Up.jpeg"   
+    },
+    {
+        id: 171,
+        name: "campa",
+        price: 10,
+        category: "coldrink",
+        photo: "https://5.imimg.com/data5/SELLER/Default/2025/1/484158944/UB/KY/XL/18849970/campa-cold-drink-250ml-mrp-10.jpg"   
+    }   
+];  
 
 // Category Icons Mapping
 const categoryIcons = {
@@ -1438,7 +1466,8 @@ const categoryIcons = {
     "Rice": "🍚",
     "Pav Bhaji": "🥘",
     "Dal-Bati & Extras": "🍲",
-    "Fix Thali": "🍱"
+    "Fix Thali": "🍱",
+    "coldrink": "🥤"
 };
 
 // Return the individual photo assigned directly to each item
